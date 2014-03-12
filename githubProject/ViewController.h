@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)btnCkick:(id)sender;
 @end

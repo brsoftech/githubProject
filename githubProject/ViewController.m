@@ -20,6 +20,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(IBAction)btnCkick:(id)sender
+{
+     NSLog(@"This is a Git tutorial");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
