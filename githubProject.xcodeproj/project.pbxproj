@@ -21,6 +21,8 @@
 		16B8769618D0593E00A730C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B8767818D0593E00A730C6 /* UIKit.framework */; };
 		16B8769E18D0593E00A730C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16B8769C18D0593E00A730C6 /* InfoPlist.strings */; };
 		16B876A018D0593E00A730C6 /* githubProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B8769F18D0593E00A730C6 /* githubProjectTests.m */; };
+		16B876AC18D0772300A730C6 /* qqqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B876AA18D0772300A730C6 /* qqqViewController.m */; };
+		16B876AD18D0772300A730C6 /* qqqViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B876AB18D0772300A730C6 /* qqqViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		16B8769B18D0593E00A730C6 /* githubProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "githubProjectTests-Info.plist"; sourceTree = "<group>"; };
 		16B8769D18D0593E00A730C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16B8769F18D0593E00A730C6 /* githubProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubProjectTests.m; sourceTree = "<group>"; };
+		16B876A918D0772300A730C6 /* qqqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qqqViewController.h; sourceTree = "<group>"; };
+		16B876AA18D0772300A730C6 /* qqqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qqqViewController.m; sourceTree = "<group>"; };
+		16B876AB18D0772300A730C6 /* qqqViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = qqqViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				16B8768618D0593E00A730C6 /* Main.storyboard */,
 				16B8768918D0593E00A730C6 /* ViewController.h */,
 				16B8768A18D0593E00A730C6 /* ViewController.m */,
+				16B876A918D0772300A730C6 /* qqqViewController.h */,
+				16B876AA18D0772300A730C6 /* qqqViewController.m */,
+				16B876AB18D0772300A730C6 /* qqqViewController.xib */,
 				16B8768C18D0593E00A730C6 /* Images.xcassets */,
 				16B8767B18D0593E00A730C6 /* Supporting Files */,
 			);
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B876AD18D0772300A730C6 /* qqqViewController.xib in Resources */,
 				16B8768D18D0593E00A730C6 /* Images.xcassets in Resources */,
 				16B8767F18D0593E00A730C6 /* InfoPlist.strings in Resources */,
 				16B8768818D0593E00A730C6 /* Main.storyboard in Resources */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B876AC18D0772300A730C6 /* qqqViewController.m in Sources */,
 				16B8768B18D0593E00A730C6 /* ViewController.m in Sources */,
 				16B8768518D0593E00A730C6 /* AppDelegate.m in Sources */,
 				16B8768118D0593E00A730C6 /* main.m in Sources */,
